@@ -1,0 +1,38 @@
+{
+   "name":"RingWorld",
+   "Signal":{
+      "Signals":[
+         {
+            "Frequency":"Radio",
+            "Name":"TARDIS",
+            "AudioClip":"OW_PR_ProbeInAirSound",
+            "SourceRadius":1,
+            "Position":{
+               "x":93.3382,
+               "y":141.9551,
+               "z":-281.6891
+            }
+         }
+      ]
+   },
+   "Props":{
+      "Details":[
+         {
+            "assetBundle":"planets/assetbundle/TARDIS/tardis",
+            "path":"Assets/TARDIS/Prefab/TARDIS.prefab",
+            "position":{
+               "x":94.6581,
+               "y":141.9151,
+               "z":-282.9091
+            },
+            "rotation":{
+               "x":358.4604,
+               "y":252.0041,
+               "z":269.0105
+            },
+			
+            "scale": 135
+         }
+      ]
+   }
+}

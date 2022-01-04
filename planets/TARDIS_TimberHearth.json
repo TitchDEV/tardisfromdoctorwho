@@ -1,0 +1,38 @@
+{
+   "name":"Timber Hearth",
+   "Signal":{
+      "Signals":[
+         {
+            "Frequency":"Radio",
+            "Name":"TARDIS",
+            "AudioClip":"OW_PR_ProbeInAirSound",
+            "SourceRadius":1,
+            "position":{
+               "x": -236.5173,
+               "y": -41.8003,
+               "z": -68.7187
+            },
+         }
+      ]
+   },
+   "Props":{
+      "Details":[
+         {
+            "assetBundle":"planets/assetbundle/TARDIS/tardis",
+            "path":"Assets/TARDIS/Prefab/TARDIS.prefab",
+            "position":{
+               "x": -236.5173,
+               "y": -41.8003,
+               "z": -68.7187
+            },
+            "rotation":{
+               "x":279.4513,
+               "y":255.4752,
+               "z":179.9639
+            },
+			
+            "scale": 125
+         }
+      ]
+   }
+}
