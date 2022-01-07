@@ -1,0 +1,56 @@
+{
+   "name":"TARDIS_Interior",
+   "starSystem":"TARDIS",
+   "Spawn":{
+      "playerSpawnPoint":{
+         "x":-202.2599,
+         "y":0.0401,
+         "z":-7.8797
+      },
+      "startwithSuit":true
+   },
+   "Base":{
+      "groundSize":200,
+      "surfaceSize":200,
+      "surfaceGravity":12,
+      "hasMapMarker":true,
+      "centerOfSolarSystem":true,
+      "isStatic":true,
+      "lightTint":{
+         "r":255,
+         "g":255,
+         "b":255,
+         "a":255
+      }
+   },
+   "Atmosphere":{
+      "size":250,
+      "hasOxygen":true
+   },
+   "Props":{
+      "Details":[
+         {
+            "assetBundle":"planets/assetbundle/TARDIS/Interior/tardis_interior",
+            "path":"Assets/TARDIS/Prefab/TARDIS_Interior.prefab",
+            "position":{
+               "x":-200,
+               "y":0,
+               "z":0
+            },
+            "rotation":{
+               "x":0,
+               "y":0,
+               "z":90
+            },
+            "scale":100
+         }
+      ]
+   },
+   	"Singularity" :
+	{
+		"Type" : "BlackHole",
+		"TargetStarSystem" : "SolarSystem",
+		"Size" : 0.2,
+		"Position" : {"x": -201.8399, "y": 0.0401, "z": -11.6797} 
+	}
+}
